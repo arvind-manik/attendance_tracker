@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/classId"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="(enter classId here)"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:elevation="0dp"
+        android:onClick="reportNow"
+        android:text="Get Report" />
+
+    <TextView
+        android:id="@+id/rep"
+        android:layout_width="match_parent"
+        android:layout_height="538dp"
+        android:gravity="top|bottom"
+        android:textAlignment="center" />
+</LinearLayout>

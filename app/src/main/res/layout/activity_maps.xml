@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MapsActivity">
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/belowlayout"
+        android:layout_marginTop="7dp" />
+
+    <RelativeLayout
+        android:id="@+id/belowlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:text="Check attenance"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/cin"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end|center_horizontal"
+            android:layout_marginStart="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Check-in"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/cout"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:text="Check-out"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

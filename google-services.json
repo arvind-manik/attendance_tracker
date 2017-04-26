@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "297099130915",
+    "firebase_url": "https://atttrack.firebaseio.com",
+    "project_id": "atttrack",
+    "storage_bucket": "atttrack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297099130915:android:8b06b68637509b48",
+        "android_client_info": {
+          "package_name": "com.comeze.artuno.attendancetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297099130915-0742eo5pji87tpkin9j0gc8gt9brjfcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.comeze.artuno.attendancetracker",
+            "certificate_hash": "84a90e404c811becd15adcf5aeb8e0d9e0102b7a"
+          }
+        },
+        {
+          "client_id": "297099130915-t5i1dcdrquq7nmj87qhofo42qt9udg3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQkr34H_jZ03BdU6ADcD25HOaavlArk8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297099130915-t5i1dcdrquq7nmj87qhofo42qt9udg3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
